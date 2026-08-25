@@ -1,4 +1,4 @@
-# 📱 nothing
+# 📱 game-2048
 
 <p align="center">
   <img src="./public/bg.png" width="600" height="400" />
