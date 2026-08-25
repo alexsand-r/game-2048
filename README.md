@@ -5,10 +5,6 @@
 </p>
 A classic, addictive puzzle game built with modern web technologies. Combine matching tiles to reach the legendary **2048** tile!
 
----
-
-## 🚀 Live Demo
-
 ## 🚀 Live Demo
 * **Live Website:** [View on Vercel](https://game-2048-woad-eta.vercel.app/)
 ---
