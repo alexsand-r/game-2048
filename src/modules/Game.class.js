@@ -1,4 +1,4 @@
-'use strict';
+"use strict";
 /**
  * This class represents the game.
  * Now it has a basic structure, that is needed for testing.
@@ -29,11 +29,11 @@ class Game {
 
     this.field = initialState || emptyField;
     this.score = 0;
-    this.status = 'idle';
+    this.status = "idle";
   }
 
   moveLeft() {
-    if (this.status !== 'playing') {
+    if (this.status !== "playing") {
       return false;
     }
 
@@ -52,7 +52,7 @@ class Game {
   }
 
   moveRight() {
-    if (this.status !== 'playing') {
+    if (this.status !== "playing") {
       return false;
     }
 
@@ -74,7 +74,7 @@ class Game {
   }
 
   moveUp() {
-    if (this.status !== 'playing') {
+    if (this.status !== "playing") {
       return false;
     }
 
@@ -97,7 +97,7 @@ class Game {
   }
 
   moveDown() {
-    if (this.status !== 'playing') {
+    if (this.status !== "playing") {
       return false;
     }
 
@@ -158,7 +158,7 @@ class Game {
       [0, 0, 0, 0],
     ];
     this.score = 0;
-    this.status = 'playing';
+    this.status = "playing";
     this.addRandomTile();
     this.addRandomTile();
   }
@@ -226,7 +226,7 @@ class Game {
 
   updateStatus() {
     if (this.field.flat().includes(2048)) {
-      this.status = 'win';
+      this.status = "win";
 
       return;
     }
@@ -236,7 +236,7 @@ class Game {
       this.movePossible(this.transpose(this.field));
 
     if (!movesAvailable) {
-      this.status = 'lose';
+      this.status = "lose";
     }
   }
 
@@ -247,4 +247,4 @@ class Game {
   }
 }
 
-module.exports = Game;
+export default Game;
