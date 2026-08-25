@@ -8,7 +8,21 @@ A classic, addictive puzzle game built with modern web technologies. Combine mat
 ---
 
 ## 🚀 Live Demo
-* **Live Website:** [View on Vercel](СЮДИ_ВСТАВ_ПОСИЛАННЯ_НА_VERCEL)
+
+## 🚀 Live Demo
+* **Live Website:** [View on Vercel](https://game-2048-woad-eta.vercel.app/)
+---
+
+## 🛠 Technologies & Tools
+
+This project utilizes the following technologies:
+* **HTML5 / CSS3** — Semantic and accessible markup structure.
+* **JavaScript (ES6+)** — Interactive elements and dynamic behavior.
+* **Sass (SCSS)** — Modular and convenient preprocessor styling.
+* **Vite** — An ultra-fast build tool and local development server.
+* **Vercel** — A reliable platform for fast deployment.
+
+---
 ---
 
 ## 🛠 Technologies & Tools
