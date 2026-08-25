@@ -1,0 +1,22 @@
+{
+  "name": "game-2048",
+  "version": "1.0.0",
+  "description": "2048 game",
+  "keywords": [],
+  "author": "kkkkk",
+  "license": "MIT",
+  "scripts": {
+    "start": "parcel src/index.html",
+    "build": "parcel build src/index.html --public-url .",
+    "format": "prettier --write 'src/**/*.{html,css,scss,js}'"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "@parcel/transformer-sass": "^2.12.0",
+    "parcel": "^2.12.0",
+    "prettier": "^3.3.2"
+  },
+  "browserslist": [
+    "last 2 versions"
+  ]
+}
